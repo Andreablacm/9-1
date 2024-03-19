@@ -5,28 +5,28 @@ body {
   position: relative;
   width: 150px;
   height: 150px;
+  margin-top: 50px;
+  margin-left: 50px;
   background-color: gold;
   border-radius: 50%;
   box-shadow: 400px 200px plum, 0px 400px red;
 }
 .box1::before {
   content: '';
-  position:absolute;
+  position: absolute;
   width: 150px;
   height: 150px;
   background-color: red;
   left: 200px;
-box-shadow: -200px 200px greenyellow, 200px 400px pink;
-
+  box-shadow: -200px 200px greenyellow, 200px 400px pink;
 }
-.box1::after{
+.box1::after {
   content: '';
-  position:absolute;
+  position: absolute;
   width: 150px;
   height: 150px;
-  background-color:mediumaquamarine ;
+  background-color: mediumaquamarine;
   border-radius: 20%;
   left: 400px;
   box-shadow: -200px 200px green, -200px 400px blue;
 }
-
