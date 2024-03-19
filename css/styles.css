@@ -7,7 +7,7 @@ body {
   height: 150px;
   background-color: gold;
   border-radius: 50%;
-  box-shadow: 400px 200px plum;
+  box-shadow: 400px 200px plum, 0px 400px red;
 }
 .box1::before {
   content: '';
