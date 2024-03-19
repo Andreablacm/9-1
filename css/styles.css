@@ -3,10 +3,10 @@ body {
 }
 .box1 {
   position: relative;
+  left: -150px;
   width: 150px;
   height: 150px;
-  margin-top: 50px;
-  margin-left: 50px;
+  margin-inline: auto;
   background-color: gold;
   border-radius: 50%;
   box-shadow: 400px 200px plum, 0px 400px red;
